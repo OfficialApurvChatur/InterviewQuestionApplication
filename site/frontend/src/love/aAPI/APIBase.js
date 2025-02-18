@@ -6,7 +6,7 @@ const APIBase = (props) => {
     const configuration = {
         method: props.method,
         url: props.url,
-        baseURL: import.meta.env.VITE_ENVIRONMENT === "Production" ? "https://soup-interview-question-backend.onrender.com" : "http://localhost:8000",
+        baseURL: import.meta.env.VITE_ENVIRONMENT === "Production" ? "https://backend-for-interview-question-application.onrender.com" : "http://localhost:8000",
         headers: { 
             'Content-Type': 'application/json',
         },
